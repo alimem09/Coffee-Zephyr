@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{  scroll-behavior: smooth;}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(63, 61, 61, 0.5)), 
+    url('coffe.jpg');
+    height: 100vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%; /* Шапка займёт всю ширину окна браузера */
+    z-index: 1000; /* Высокое значение, чтобы шапка была всегда на первом плане */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.862);
+    padding: 20px;
+    font-family: montserrat;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+.nav-element{
+    transition: linear 0.2s;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.nav-element:hover{
+    display: flex;
+    background-color: white;
+    color: rgb(236, 132, 20);
+    border-radius: 5px;
+    padding: 10px;
+}
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:montserrat;
+    height: 75vh;
+    gap: 25px;
+}
+.main-header h1{
+    color: rgb(255, 255, 255);
+    font-family:montserrat;
+    font-size: 100px;
+}
+.main-header h2{
+    color:rgb(236, 132, 20);
+    font-family:montserrat;
+}
+.main-header h3{
+    color: rgb(174, 174, 174);
+    font-family:montserrat;
+}
+
+
+.about{
+    
+    background-color: white;
+    font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+#about-us{
+    color: rgb(255, 132, 0);
+    font-family: montserrat;
+}
+.serving{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.main-about-case{
+    display: flex;
+    justify-content: space-around;
+}
+.our{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.our h3{
+    color: rgb(82, 82, 82);
+}
+.our h4{
+    color: rgb(255, 132, 0);
+}
+.our button{
+    background-color: rgb(136, 231, 136);
+    padding: 20px;
+    border: solid rgb(0, 0, 0);
+    border-radius: 12px;
+    font-family: montserrat;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+.our button:hover{
+    background-color: rgb(41, 110, 41);
+    border: solid rgb(0, 0, 0);
+    font-family: montserrat;
+    color: white;
+}
+
+.menu{
+    display:flex;
+    flex-direction: column;
+    background-color:linear-gradient(rgba(0, 0, 0, 0.763));
+    font-family: montserrat;
+}
+.cup-coffee-type{
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 10vw;
+}   
+.cup-coffee-type img{
+    width:   calc(25%);
+}
+.cup-coffee-type .label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cup-coffee-type h1{
+    color: rgb(255, 132, 0);
+}
+.cup-coffee-type h2{
+    color: rgb(255, 255, 255);
+    font-family: "Baloo Paaji 2";
+    font-optical-sizing: auto;
+    font-style: italic;
+}
+.cup-coffee-type h3{
+    color: rgb(166, 166, 166);
+    font-size: 30px;
+}
+.cup-coffee-type button{
+    width: 25vw;
+    background-color: rgb(136, 231, 136);
+    padding: 20px;
+    border: solid rgb(0, 0, 0);
+    border-radius: 12px;
+    font-family: montserrat ;
+    font-size: 25px;
+    transition: all 0.2s;
+}
+.cup-coffee-type button:hover{
+    background-color: rgb(41, 110, 41);
+    border: solid rgb(0, 0, 0);
+    font-family: montserrat;
+    color: white;
+}
+.four{
+    color: rgb(255, 132, 0);
+    font-size: 50px;
+}
+#latte{
+    flex-direction: row-reverse;
+}
